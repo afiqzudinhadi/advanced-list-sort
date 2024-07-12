@@ -2,7 +2,7 @@
 
 ## Description
 
-This utility takes a user input of numbers or strings, groups them based on their value, and then sorts these group in order.
+This utility takes a user input of numbers or strings (or both), groups them based on their value, and then sorts these group in order.
 
 ## Table of Contents
 
