@@ -24,6 +24,11 @@ const groupedArray = array.reduce((newArray, item) => {
 	return newArray;
 }, []);
 
+console.log(
+	`Here's your arrays in an array (ordered by first appearance):`,
+	groupedArray
+);
+
 groupedArray.sort((a, b) => {
 	const valueA = a[0];
 	const valueB = b[0];
