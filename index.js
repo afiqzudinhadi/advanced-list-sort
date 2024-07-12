@@ -1,7 +1,8 @@
 import { input } from "@inquirer/prompts";
 
 const answer = await input({
-	message: "Enter an array of numbers or strings separated by commas:",
+	message:
+		"Enter an array of numbers or strings (or both!) separated by commas:",
 });
 
 const array = answer.split(",").map((item) => {
